@@ -9,7 +9,7 @@ const {
     unlikePost,
     newMention
 } = require("../controllers/posts");
-const {upload} = require("../controllers/multer");
+const {upload} = require("../middlewares/multer");
 
 router.get("/user/:id", getUserPostsById);
 

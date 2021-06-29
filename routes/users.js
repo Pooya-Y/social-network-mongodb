@@ -10,7 +10,7 @@ const {
     followUser,
     unfollowUser
 } = require("../controllers/users");
-const {upload} = require("../controllers/multer");
+const {upload} = require("../middlewares/multer");
 
 router.get('', getUsers);
 
